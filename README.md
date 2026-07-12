@@ -8,16 +8,17 @@ A full-stack Tax Management and Filing System built with:
 
 ```
 /
-├── taxmanagement-ui/   → Angular 19 frontend
-└── src/                → Spring Boot backend
+├── frontend/   → Angular 19 frontend
+└── backend/    → Spring Boot backend
 ```
 
 ## Backend Setup
 
 1. Make sure PostgreSQL is running with a database named `tax_management`
-2. Update `src/main/resources/application.properties` with your DB credentials
+2. Update `backend/src/main/resources/application.properties` with your DB credentials
 3. Run the backend:
    ```bash
+   cd backend
    ./mvnw spring-boot:run
    ```
    The API will be available at `http://localhost:8080`
@@ -25,7 +26,7 @@ A full-stack Tax Management and Filing System built with:
 ## Frontend Setup
 
 ```bash
-cd taxmanagement-ui
+cd frontend
 npm install
 npx ng serve
 ```
