@@ -1,0 +1,29 @@
+# Compiled output
+node_modules/
+dist/
+tmp/
+out-tsc/
+bazel-out/
+
+# Runtime data
+*.pid
+*.seed
+*.pid.lock
+
+# IDEs and editors
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/extensions.json
+
+# Angular cache
+.angular/
+
+# System files
+.DS_Store
+Thumbs.db
